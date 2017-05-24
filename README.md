@@ -1,2 +1,3 @@
-# ACIC-2308-2
-ACIC language switch example
+# ACIC language switch example (#2308)
+
+Sample code allowing a user to switch language where the switch in made in application GUI with a select list of languages?

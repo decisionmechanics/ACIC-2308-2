@@ -1,0 +1,18 @@
+﻿@model LanguageSwitcherDemo.Models.LanguageViewModel
+
+@{
+    ViewBag.Title = "Language Switcher";
+}
+
+@using (Html.BeginForm())
+{
+    <div>
+        Now: @DateTime.Today.ToString("F")
+    </div>
+
+    @Html.DropDownListFor(x => x.Language, Model.Languages)
+
+    <div>
+        <button type="submit">Switch</button>
+    </div>
+}
